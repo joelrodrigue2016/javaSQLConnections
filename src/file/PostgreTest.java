@@ -28,9 +28,9 @@ public class PostgreTest {
 		}
 		System.out.println("Opened database successfully");
 		stmt = c.createStatement();
-		ResultSet rs = stmt.executeQuery("SELECT * FROM temperature_readings  ;");
+		ResultSet rs = stmt.executeQuery("SELECT * FROM temperature_readings;");
 		System.out.println("______________________");
-		System.out.println("Date " + "      tmax" + " tmin");
+		System.out.println("   Date " + "    tmax" + "  tmin");
 		System.out.println("______________________");
 		while (rs.next()) {
 			String station_name = rs.getString("station_name");
@@ -45,7 +45,7 @@ public class PostgreTest {
 //			System.out.println("tmin = " + tmin);
 //			System.out.println();
 
-			System.out.println("|" + date + " | " + tmax + " | " + tmin + "|");
+			System.out.println("|" + date + " | " + tmax + " | " + tmin + " |");
 		}
 
 	}

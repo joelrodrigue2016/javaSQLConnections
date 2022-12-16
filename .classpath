@@ -8,5 +8,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="lib" path="C:/Users/Joel/Documents/Java/postgresql-42.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Joel/Documents/Mysql/mysql-connector-j-8.0.31/mysql-connector-j-8.0.31/mysql-connector-j-8.0.31.jar"/>
 	<classpathentry kind="output" path=""/>
 </classpath>

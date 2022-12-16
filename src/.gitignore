@@ -1,3 +1,5 @@
 /Test.class
 /ReaderFile.class
 /MySQLConnection.class
+/SQLServerConnection.class
+/SQLDatabaseConnection.class
